@@ -1,0 +1,19 @@
+.about-me{
+    padding: 110px 10px 0 10px;
+    background-color: var(--accent-text-color);
+    text-align: center;
+}
+
+.about-me-article{
+    margin: 0 auto;
+
+}
+.about-fall{
+    display: none;
+}
+
+@media screen and ( min-width:768px){
+    .about-me-article{
+        width: 50%;
+    }
+}

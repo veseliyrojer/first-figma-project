@@ -1,0 +1,37 @@
+.footer{
+    background-color: var(--accent-color);
+    padding: 50px 10px;
+    color:var(--accent-text-color);
+    
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.name-rules{
+    grid-column: 1/2;
+    justify-self: start;
+    align-self: center;
+}
+.name{
+    font-size: 21px;
+    font-weight: 500;
+    padding:25px 0;
+}
+.links-logo{
+    grid-column: 2/3;
+    justify-self: end;
+    align-self: center;
+   
+}
+.link-footer{
+    text-decoration: none;
+}
+.footer-logo{
+    padding: 10px;
+}
+.footer-logo:hover{
+    width: 3rem;
+    background-color: #5c718a;
+    visibility: 0.4;
+}

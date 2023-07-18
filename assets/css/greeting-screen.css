@@ -1,0 +1,44 @@
+.greeting-screen{
+    background-color: var(--bg-color);
+    padding: 100px 10px;
+}
+
+.greeting-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px 0;
+}
+.greeting-img-wrapper{
+    grid-column: 1 / span 12 ;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+.greeting-article{
+    
+    grid-column: 1 / span 12 ;
+    text-align: center;
+}
+.greeting-img{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+@media screen and (min-width:992px){
+    .greeting-img-wrapper{
+        grid-column: 1 / span 6;
+        align-self: center;
+       
+    }
+    
+    .greeting-grid{
+        gap: 0 40px;
+    }
+
+    .greeting-article{
+        grid-column: span 6 / -1;
+        text-align: left;
+    }
+}

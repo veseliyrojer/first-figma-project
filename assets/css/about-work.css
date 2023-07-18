@@ -1,0 +1,23 @@
+
+.about-work{
+    padding: 110px 10px ;
+    background-color:var(--bg-color);
+    text-align: center;
+}
+.about-work-article{
+    margin: 0 auto;
+   
+}
+
+.video-player-work{
+    padding-top: 57px;
+}
+
+.img-player{
+    width: 100%;
+} 
+@media screen and ( min-width:768px){
+    .about-work-article{
+        width: 50%;
+    }
+}
